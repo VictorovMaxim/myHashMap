@@ -6,20 +6,8 @@ public class MyNode<K,V> {
     private V value;
     private MyNode<K,V> nextNode;
 
-    public int getHash() {
-        return hash;
-    }
-
-    public void setHash(int hash) {
-        this.hash = hash;
-    }
-
     public K getKey() {
         return key;
-    }
-
-    public void setKey(K key) {
-        this.key = key;
     }
 
     public V getValue() {
